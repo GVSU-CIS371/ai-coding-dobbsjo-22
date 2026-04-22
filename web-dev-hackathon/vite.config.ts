@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+  base: '/ai-coding-dobbsjo-22/', // e.g., '/web-dev-hackathon/'
   plugins: [vue()],
   resolve: {
     alias: {
